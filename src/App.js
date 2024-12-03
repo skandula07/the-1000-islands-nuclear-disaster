@@ -7,6 +7,7 @@ import Gear from "./1000islands/Minigames/Gear.tsx";
 import Repair from "./1000islands/Minigames/Repair.tsx";
 import Medic from "./1000islands/Minigames/Medic.tsx";
 import HalfLives from "./1000islands/Minigames/HalfLives.tsx";
+import End from "./1000islands/Minigames/End.tsx";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/medic" element={<Medic />} />
           <Route path="/gear" element={<Gear />} />
           <Route path="/halflives" element={<HalfLives />} />
+          <Route path="/end" element={<End />} />
         </Routes>
         </div>
 

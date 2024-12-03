@@ -22,7 +22,8 @@ export default function Sidebar() {
         {path: "/repair", title:"regular maintanence procedures"},
         {path:"/containment", title:"Containment Breach"},
         {path:"/medic", title:"We need a medic"},
-        {path:"/halflives", title:"clean up and aftermath."}];
+        {path:"/halflives", title:"clean up and aftermath."},
+        {path:"/end", title:"you lived!"}];
 
 
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import Cutscene from "../Nav/Cutscene";
 import Exposure from "../Nav/Exposure";
 import "./radiation.css"
 
@@ -8,6 +9,7 @@ export default function HalfLives() {
     return(
         <div >
              <Exposure percentage={39} />
+             <Cutscene />
 
 
              <div className="flex">
@@ -51,7 +53,7 @@ Low-level waste is radioactively contaminated industrial or research waste that 
 
              <div>
             <Link to="/medic" className="float-left mb-10 direction">Previous</Link>
-            <Link to="/theEnd" className="float-right mb-10 direction">Next</Link>
+            <Link to="/end" className="float-right mb-10 direction">Next</Link>
              <br /> <br />
             </div>
 

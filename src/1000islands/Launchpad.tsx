@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
+import Exposure from "./Nav/Exposure";
 import TypingEffect from "./Nav/TypingText";
 
 export default function Launchpad() {
@@ -10,6 +11,9 @@ export default function Launchpad() {
     };
   return (
     <div className="p-20">
+
+<Exposure percentage={3} />
+
     <h1 className="text-4xl align-middle">
       The Thousand Islands <br />
       Nuclear Disaster
