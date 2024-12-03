@@ -16,7 +16,7 @@ body {
 } */
 .sidebar::selection {
 
-}
+} 
 
 ::selection {
   background-color: #5bd59e;
