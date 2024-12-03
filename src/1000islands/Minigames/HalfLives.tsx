@@ -47,6 +47,7 @@ Low-level waste is radioactively contaminated industrial or research waste that 
              </div>
 
              </div>
+             <br /> <br />
 
              <div>
             <Link to="/medic" className="float-left mb-10 direction">Previous</Link>
