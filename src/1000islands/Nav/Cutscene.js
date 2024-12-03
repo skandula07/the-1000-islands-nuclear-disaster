@@ -31,7 +31,7 @@ function Cutscene() {
       return () => clearTimeout(timer); // Cleanup the timer on unmount
     }, []);
 
-
+ 
 
 
 
@@ -50,6 +50,7 @@ function Cutscene() {
       </div>
     </div>
       )}
+
   
 
         </div>
