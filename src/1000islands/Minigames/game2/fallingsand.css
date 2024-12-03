@@ -1,0 +1,20 @@
+.fallingsandgrid {
+
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    background-color: rgb(36, 54, 61);
+
+}
+
+.brushes {
+
+    width: 200px;
+    height: 500px;
+    border: 1px solid white;
+}
+/* 
+a {
+    color: blue;
+    text-decoration: underline;
+} */

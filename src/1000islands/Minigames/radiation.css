@@ -1,0 +1,13 @@
+.card h2 {
+    font-family: "Helvetica";
+    color: black;
+}
+
+
+.card {
+    height: 400px;
+    width: 350px;
+    background-color: #c3d7ce; 
+    border-radius: 10px;
+    padding: 20px
+}
