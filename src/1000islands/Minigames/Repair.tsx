@@ -1,5 +1,4 @@
 import React from "react";
-import Iframe from "react-iframe";
 import { Link } from "react-router-dom"; // Make sure you're using 'react-router-dom' instead of 'react-router'
 import Cutscene from "../Nav/Cutscene";
 import Exposure from "../Nav/Exposure";
@@ -7,23 +6,6 @@ import TypingEffect from "../Nav/TypingText";
 
 const Repair: React.FC = () => {
 
-
-    function MyComponent() {
-        return (
-          <div>
-            <Iframe 
-              url="https://www.google.com/maps"
-              width="1100px"
-              height="600px"
-              id="myId"
-              className="myClassname"
-              display="initial"
-              position="relative"
-              
-            />
-          </div>
-        );
-      }
       
   return (
     <div>
@@ -39,18 +21,10 @@ const Repair: React.FC = () => {
       <hr />
       <br />
 
-      {/* Embed the iframe */}
-      {/* <iframe
-        src="https://google.com"
-        title="Dalton NRS"
-        width="100%"  // Correct JSX syntax: no comments here
-        height="600"  // Correct JSX syntax
-        style={{ border: 'none' }}
-        sandbox="allow-scripts allow-same-origin allow-forms"
-      /> */}
 
 
-      {MyComponent()}
+      <img src="/images/reactor.png" alt="operation" width="100%" height="600" className="align-self-center rounded" />
+
 
 
 
