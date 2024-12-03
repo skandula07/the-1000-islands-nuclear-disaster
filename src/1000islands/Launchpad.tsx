@@ -14,13 +14,15 @@ export default function Launchpad() {
 
 <Exposure percentage={3} />
 
+<div className="flex">
+
     <h1 className="text-4xl align-middle">
       The Thousand Islands <br />
       Nuclear Disaster
       <br />
       <br />
     </h1>
-
+</div>
   
 
 
@@ -43,6 +45,28 @@ export default function Launchpad() {
     onClick={handleGo}>
         Suit up for work!
     </button>
+    <br />
+
+    <br />
+
+    <br />
+    <hr />
+
+    <br />
+
+    <br />
+
+    <br />    <br />
+
+<br />
+
+<br />    <br />
+
+<br />
+
+<br />
+    <img src="/images/DRESSING.png" alt="ranch" width="40px" className="align-self-center" />
+
 
     
 
